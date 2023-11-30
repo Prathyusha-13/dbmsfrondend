@@ -74,13 +74,14 @@ class DatabaseCount extends React.Component {
         <div className="position-relative">
             {/* shape Hero */}
             <section className="section section-shaped">
-              <div className="shape shape-style-1 shape-default">
+              <div className="shape shape-style-3 shape-primary">
               </div>
               <container>
                 <Row className="justify-content-center">
                     <div className="text-center mt-5">
-                        <h1 className='text-white'>Total number of tuples:</h1>
+                        <h1 className='text-white'>Total Data collect is from: </h1>
                         <h4 className='text-white'>{this.state.count}</h4>
+                        <h1 className='text-white'> Tuples</h1>
                     </div>
                 </Row>
             </container>

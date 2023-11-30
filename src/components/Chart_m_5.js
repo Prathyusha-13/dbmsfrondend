@@ -10,10 +10,10 @@ function Chart_m_5(props) {
   else{
     return(
     <LineChart
-      className="custom-line-chart bg-white"
+      className="custom-line-chart"
       xAxis={[{ data: props.x , scaleType: 'band',  label: 'Years'}]}
       yAxis={[
-        { id: 'y1', scaleType: 'linear', label: 'Acceptance Rate' },
+        { id: 'y1', scaleType: 'linear', label: 'Approval Rate' },
       ]}
       series={[
         { yAxisKey: 'y1', data: props.y1, label: 'AcceptanceRate' },

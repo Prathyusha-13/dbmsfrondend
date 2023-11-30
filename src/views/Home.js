@@ -93,9 +93,9 @@ class Landing extends React.Component {
                             Query 1
                           </h6>
                           <p className="description mt-3">
-                          Trend of Visa approvals for entry into USA as proportion to country's population.  
+                          Investigating the trend in dynamic of employers engaging in H-1B Visa sponsorships.
                           </p>
-                          <Link to="/GlobalTemp">
+                          <Link to="/Query2">
                                 <Button className="mt-4" color="warning">
                                     View Trend 1
                                 </Button>
@@ -115,9 +115,10 @@ class Landing extends React.Component {
                             Query 2
                           </h6>
                           <p className="description mt-3">
-                          Investigating the trend in dynamic of employers engaging in H-1B Visa sponsorships. 
+                           
+                          Trend analysis on how the wages have evolved within various sectors considering the skill levels of employees. 
                           </p>
-                          <Link to="/CO2">
+                          <Link to="/Query4">
                                 <Button className="mt-4" color="warning">
                                 View Trend 2
                                 </Button>
@@ -141,7 +142,7 @@ class Landing extends React.Component {
                           <p className="description mt-3">
                           Trends in distribution of job titles and skill levels among foreign workers.
                           </p>
-                          <Link to="/Energy">
+                          <Link to="/Query3">
                                 <Button className="mt-4" color="warning">
                                 View Trend 3
                                 </Button>
@@ -161,9 +162,9 @@ class Landing extends React.Component {
                             Query 4
                           </h6>
                           <p className="description mt-3">
-                          Trend analysis on how the wages have evolved within various sectors considering the skill levels of employees.
+                          Analyze the trend in various sectors and states to understand which state has high count of immigrants in a particular sector. 
                           </p>
-                          <Link to="/GDP">
+                          <Link to="/Query5">
                                 <Button className="mt-4" color="warning">
                                     View Trend 4
                                 </Button>
@@ -188,7 +189,7 @@ class Landing extends React.Component {
                           <p className="description mt-3">
                           Analyze the trend in various sectors and states to understand which state has high count of immigrantsin a particular sector. 
                           </p>
-                          <Link to="/Internet">
+                          <Link to="/Query1">
                                 <Button className="mt-4" color="warning">
                                     View Trend 5
                                 </Button>

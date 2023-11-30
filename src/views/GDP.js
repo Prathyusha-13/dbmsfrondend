@@ -32,7 +32,7 @@ import {
 import Navbar from "../components/NavBar.js";
 import Footer from "../components/Footer.js";
 import Chart_m_4_1 from "../components/Chart_m_4_1.js";
-import Chart_m_4_2 from "../components/Chart_m_4_2.js";
+import Chart_m_4_2 from "../components/Chart_m_4.js";
 import Divider from "../components/Divider.js"
 
 
@@ -313,7 +313,7 @@ changeTopN(e, n, url) {
         <div className="position-relative">
             {/* shape Hero */}
             <section className="section section-shaped">
-              <div className="shape shape-style-1 shape-default">
+              <div className="shape shape-style-1 shape-primary">
               </div>
             </section>  
             <section className="section">
